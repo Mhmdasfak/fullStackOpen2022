@@ -1,0 +1,9 @@
+title spa_new_notes
+
+note over browser:
+form onsubmit eveny handler triggered when user clicks on save
+adds the note to the notes array and re renders the notes and call the method to send it to server
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: json string with message as key value as note created
